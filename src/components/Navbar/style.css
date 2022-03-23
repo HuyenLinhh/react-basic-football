@@ -1,0 +1,87 @@
+.navbar {
+    display: flex;
+    width: 100%;
+    background-color: #2c2c2c;
+    color: white;
+    text-transform: uppercase;
+    align-items: center;
+    padding: 10px 0px 10px 0px;
+    
+}
+
+.logo {}
+
+.navbar_left {
+    display: flex;
+    flex: 1;
+}
+
+.navbar_right {
+    display: flex;
+    justify-content: flex-end;
+    flex: 1;
+    align-items: center;
+}
+
+.logo {
+    display: flex;
+    /* align-self: center; */
+    align-items: center;
+    flex-direction: column;
+    margin: 0px 10px 0px 10px;
+}
+
+.emphasize {
+    color: #df7e3d;
+}
+
+.navbar_left span {
+    margin: 10px 5px 5px 30px;
+    padding: 5px;
+}
+
+.navbar_right span {
+    margin-right: 30px;
+}
+
+.turnback {
+    display: flex;
+    align-items: center;
+}
+
+.login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar #covid_policy {
+    border-radius: 10px;
+    font-size: 18px;
+    background-color: #be2541;
+    color: white;
+    /* font-family: 'Source Sans Pro', sans-serif; */
+    text-align: center;
+    margin-right: 20px;
+    padding: 10px 15px 10px 15px;
+    text-transform: uppercase;
+    font-family: inherit;
+}
+.navbar > .dropdown{
+    color: inherit;
+    display: inline-block;
+}
+li {
+    list-style-type:none;
+}
+/* #dropdownMenuLink {
+    postion: relative;
+}
+.dropdown_menu::after {
+    position: relative;
+    margin: 0;
+    padding: 0;  
+}
+.dropdown-item::after {
+    position: absolute;
+} */
