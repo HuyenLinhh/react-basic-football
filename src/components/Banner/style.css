@@ -1,13 +1,13 @@
 
 .banner {
-    background-image: url("https://www.tuhocielts.vn/wp-content/uploads/2020/08/foofbal.jpg");
+    background: url("https://www.tuhocielts.vn/wp-content/uploads/2020/08/foofbal.jpg") ;
     background-color: #cccccc;
-    height: 100vh;
+    /* height: 100vh; */
     display: flex;
     justify-content: space-between;
     background-size: cover;
     color: white;
-    width: 100%;
+    /* width: 100%; */
 }
 .banner-text {
     width: 800px;
