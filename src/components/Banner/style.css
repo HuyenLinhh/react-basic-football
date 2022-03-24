@@ -2,30 +2,44 @@
 .banner {
     background: url("https://www.tuhocielts.vn/wp-content/uploads/2020/08/foofbal.jpg") ;
     background-color: #cccccc;
-    /* height: 100vh; */
     display: flex;
     justify-content: space-between;
-    background-size: cover;
+    /* background-size: auto 100%;
+    background-repeat: no-repeat; */
     color: white;
-    /* width: 100%; */
+	background-size: cover;
+    height: 90vh;
+
 }
+
 .banner-text {
-    width: 800px;
-    font-size: 50px;
+    width: 800%;
+    font-size: 100px;
     margin: 40px;
     padding: 10px;
 }
 .banner-text #line-1 {
     text-transform: uppercase;
-    font-size: 30px;
+    font-size: 40px;
     margin-bottom: 20px;
 }
 .banner-text #line-2 {
     text-transform: uppercase;
-    font-size: 60px;
 }
 .banner-text #line-3 {
     font-size: 35px;
 }
 
-
+  /* Mobile */
+  @media only screen and (max-width: 768px) {
+    .banner { 
+        display:block;
+    }
+    .banner-text{ display: inline;
+        }
+   
+}
+/* Tablet */
+@media only screen and (min-width: 740px) and (max-width: 1023px) {
+    .banner { display:block;}
+}

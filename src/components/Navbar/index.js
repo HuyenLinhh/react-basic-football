@@ -18,7 +18,7 @@ const Navbar = () => {
       </div>
       <div className='navbar_right'>
         <div className='login'>
-          <span className='emphasize'> Existing Customer: </span>
+          <p className='emphasize'> Existing Customer: </p>
           <span style={{ textDecoration: 'underline white solid' }}>
             Login here
           </span>
@@ -31,19 +31,19 @@ const Navbar = () => {
             Covid Policy
           </button>
         </a>
-        <div class='dropdown'>
-          <button class='dropbtn'>
+        <div className='dropdown'>
+          <button className='dropbtn'>
             <FiAlignJustify />
           </button>
-          <div class='dropdown-content'>
-            <a href='#'>FIND AN ACADEMY </a>
-            <a href='#'>WEEKLY FOOTBALL TRAINING</a>
-            <a href='#'>HOliDAY CAMPS </a>
+          <div className='dropdown-content'>
+            <a href='https://www.wemakefootballers.com/#'>FIND AN ACADEMY </a>
+            <a href='https://www.wemakefootballers.com/#'>WEEKLY FOOTBALL TRAINING</a>
+            <a href='#'>HOLIDAY CAMPS </a>
             <a href='#'>ABOUT US</a>
-            <a href='#'>NEWS</a>
-            <a href='#'>SHOP</a>
-            <a href='#'>FRANCHISING</a>
-            <a href='#'>CONTACT US</a>
+            <a href='https://www.wemakefootballers.com/news/'>NEWS</a>
+            <a href='https://www.kitlocker.com/wemakefootballers/players'>SHOP</a>
+            <a href='https://franchisewmf.com' type='_blank'>FRANCHISING</a>
+            <a href='https://www.wemakefootballers.com/contact-us/'>CONTACT US</a>
           </div>
         </div>
       </div>
