@@ -117,12 +117,75 @@ li {
     background-color: white;
     color: Black;
   }
-  /* Mobile */
-@media only screen and (max-width: 768px) {
-    .navbar { display:block;}
-   
-}
+
+  .responsive-navbar { 
+      display: none;
+  }
+
+
 /* Tablet */
-@media only screen and (min-width: 740px) and (max-width: 1023px) {
-    .navbar { display:block;width:fit-content}
+@media only screen and (max-width: 910px) {
+    .navbar { 
+        display: none;
+    }
+
+    .responsive-navbar {
+        display: block;
+        background-color: #2c2c2c;
+        flex-direction: column;
+        padding: 0.8rem 0.2rem;
+        align-items: center;
+    } 
+
+    .responsive-navbar .logo { 
+        color: white;
+        align-self: center;
+    }
+
+    .navbar-btn .login { 
+        display: inline-block;
+    }
+
+    .navbar-btn * { 
+        padding: 0.2rem;
+    }
+
+    .navbar-btn .turnback { 
+        
+    }
+
+    .responsive-navbar .emphasize { 
+       text-align: left;
+    }
+
+    .navbar-btn *:hover { 
+        background-color: white;
+    }
+
+    
+    .responsive-navbar .login .login-btn { 
+       color: white;
+       text-transform: uppercase;
+    }
+
+    .navbar-btn .text-white { 
+        color: #fff
+    }
+
+    .navbar-btn .text-white:hover{ 
+        color: #000
+    }
+
+    .navbar-btn .text-orange { 
+        color: #df7e3d
+    }
+
+    .navbar-btn a { 
+        display: block;
+        text-decoration: none;
+        color: red
+    }
+
+
+    
 }
