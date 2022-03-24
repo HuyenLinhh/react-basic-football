@@ -1,4 +1,11 @@
 .App {
-  width: 100vw;
+
   font-family: 'Fredoka', sans-serif;
+  /*  body {
+    .header { height: 100px; }
+
+    .main {
+      max-height: calc(var(--vh, 1vh) * 100 - 100px);
+    } 
+  } */
 };
