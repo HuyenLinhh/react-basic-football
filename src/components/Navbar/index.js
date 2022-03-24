@@ -19,9 +19,7 @@ const Navbar = () => {
       <div className='navbar_right'>
         <div className='login'>
           <span className='emphasize'> Existing Customer: </span>
-          <span style={{ textDecoration: 'underline white solid' }}>
-            Login here
-          </span>
+          <span className='login-btn'>Login here</span>
         </div>
         <a
           href='https://www.wemakefootballers.com/we-make-footballers-covid-19-policy/'

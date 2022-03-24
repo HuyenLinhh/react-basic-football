@@ -23,13 +23,13 @@
 
 .logo {
     display: flex;
-    flex: 1;
     align-items: center;
     flex-direction: column;
 }
 
 .emphasize {
     color: #df7e3d;
+    text-align: center;
 }
 
 .navbar_left span {
@@ -51,16 +51,24 @@
     align-items: center;
 }
 
+.login .login-btn {
+    text-decoration: underline #fff solid;
+    text-align: center;
+}
+
 .navbar #covid_policy {
     border-radius: 10px;
     font-size: 18px;
     background-color: #be2541;
     color: white;
     text-align: center;
-    padding: 10px 15px;
+    padding: 0.7rem 1rem;
     text-transform: uppercase;
     font-family: inherit;
 }
+
+
+
 .navbar > .dropdown{
     color: inherit;
     display: inline-block;
