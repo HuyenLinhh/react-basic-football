@@ -1,45 +1,49 @@
 
 .banner {
-    background: url("https://www.tuhocielts.vn/wp-content/uploads/2020/08/foofbal.jpg") ;
+    background: url("https://png.pngtree.com/background/20210711/original/pngtree-atmosphere-2018-russia-world-cup-football-feast-banner-picture-image_1117286.jpg") ;
     background-color: #cccccc;
     display: flex;
     justify-content: space-between;
-    /* background-size: auto 100%;
-    background-repeat: no-repeat; */
-    color: white;
+    /* background-size: 100% 100%;
+    background-repeat: no-repeat;
 	background-size: cover;
-    height: 90vh;
+    */
+    height: 90vh; 
+    background-size: cover;                   
+    background-repeat:   no-repeat;
+    background-position: center start; 
+    color: white;
 
 }
 
 .banner-text {
-    width: 800%;
-    font-size: 100px;
-    margin: 40px;
-    padding: 10px;
+    width: 60%;
+    padding: 3rem 10rem 4rem 3rem;
 }
 .banner-text #line-1 {
     text-transform: uppercase;
-    font-size: 40px;
+    font-size: 2rem;
     margin-bottom: 20px;
 }
 .banner-text #line-2 {
+    font-size: 4rem;
     text-transform: uppercase;
+    margin-bottom: 10px;
 }
 .banner-text #line-3 {
-    font-size: 35px;
+    font-size: 2rem;
 }
 
   /* Mobile */
-  @media only screen and (max-width: 768px) {
-    .banner { 
-        display:block;
+@media only screen and (max-width: 1023px) {
+    .banner {
+        flex-direction: column;
+        align-items: center;
     }
-    .banner-text{ display: inline;
-        }
-   
-}
-/* Tablet */
-@media only screen and (min-width: 740px) and (max-width: 1023px) {
-    .banner { display:block;}
+
+    .banner-text { 
+        width: fit-content;
+        padding: 1.2rem;
+        text-align: center; 
+    }
 }
